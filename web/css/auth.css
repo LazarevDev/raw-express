@@ -1,0 +1,90 @@
+.menu{
+    background: #111 !important;
+}
+
+.auth{
+    display: flex;
+    justify-content: center;
+    padding: 220px 0 200px 0;
+}
+
+.auth .container{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fafafafa;
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 320px;
+}
+
+#form h2{
+    font-size: 20px;
+    color: #1B223C;
+}
+
+.formTop{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    color: #1B223C;
+    background: none;
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.input::placeholder{
+    /* color: #fff; */
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #69BC00;
+    border: 1px solid #69BC00;
+    border-radius: 50px;
+    padding: 14px 28px;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background: none;
+    color: #69BC00;
+}
+
+.formGroup{
+    width: 100%;
+    text-align: center;
+    margin: 35px 0 0 0;
+}
+
+.help-block{
+    margin: 5px 0 0 0;
+    color: #bc0000;
+}
+
+.formGroup p{
+    margin-top: 20px;
+    color: #1B223C;
+}
+
+.formGroup p a{
+    color: #69BC00;
+}

@@ -1,0 +1,313 @@
+
+/* контакты */
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    margin: 65px 0 0 0;
+    background: url('../img/image/contacts.jpg') no-repeat center / cover;
+    padding: 60px 0 60px 0;
+    overflow-x: hidden;
+}
+
+.contacts .sectionTitle h2{
+    color: #fff !important;
+}
+
+.contacts .sectionTitle p{
+    color: #fff !important;
+}
+
+.contactsForm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+}
+
+.contactsInputContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactsInput{
+    width: 250px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 15px 0 15px 0;
+    margin: 25px 0 0 0;
+    outline: none;
+    transition: .4s;
+    font-size: 14px;
+}
+
+.contactsInput:active{
+    transition: .4s;
+    border-bottom: 1px solid #69BC00;
+    color: #69BC00;
+}
+
+.contactsInput:focus{
+    transition: .4s;
+    border-bottom: 1px solid #69BC00;
+    color: #69BC00; 
+}
+
+.contactsInput::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+
+.contactsTextarea{
+    width: 525px;
+    background: none;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+    resize: none;
+    margin: 35px 0 0 0;
+    outline: none;
+    transition: .4s;
+    font-size: 14px;
+}
+
+.contactsTextarea:active{
+    transition: .4s;
+    border-bottom: 1px solid #69BC00;
+    color: #69BC00;
+}
+
+.contactsTextarea:focus{
+    transition: .4s;
+    border-bottom: 1px solid #69BC00;
+    color: #69BC00; 
+}
+
+
+.contactsTextarea::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+
+.contactsSubmitPrivacy{
+    margin: 35px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.contactsSubmit{
+    background: #69BC00;
+    border: 1px solid #69BC00;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.contactsSubmit:hover{
+    background: none;
+    color: #69BC00;
+    transition: .4s;
+}
+
+.contactsSubmitPrivacy p{
+    margin: 0 15px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contactsSubmitPrivacy p a{
+    color: #fff;
+    transition: .4s;
+}
+
+.contactsSubmitPrivacy p a:hover{
+    transition: .4s;
+    color: #69BC00;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 15px 0;
+    background: #111;
+    overflow-x: hidden;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBlock{
+    width: 320px;
+    color: #fff;
+}
+
+.footerBlock h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footerBlock p{
+    font-size: 14px;
+    font-weight: unset;
+    margin: 10px 0 0 0;
+}
+
+.footerLeft{
+    text-align: left;
+}
+
+.footerCenter{
+    text-align: center;
+}
+
+.footerRight{
+    text-align: right;
+}
+
+
+.outputData{
+    margin: 20px 0 0 0;
+}
+
+.outputData p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.outputData p a{
+    color: #fff;
+}
+
+
+
+@media(min-width: 320px) and (max-width: 560px){
+
+    
+    /* контакты */
+
+    .contacts{
+        margin: 35px 0 0 0;
+        padding: 45px 0 45px 0;
+    }
+
+    .contactsForm{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactsInputContent{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contactsInput{
+        width: 95%;
+    }
+
+    .contactsTextarea{
+        width: 95%;
+    }
+
+    .contactsSubmitPrivacy{
+        margin: 25px 0 0 0;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contactsSubmitPrivacy p{
+        margin: 15px 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* footer */
+
+    footer{
+        padding: 0 0 15px 0;
+    }
+
+    .footerContainer{
+        flex-wrap: wrap;
+    }
+
+    .footerBlock{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .footerBlock h3{
+        font-size: 16px;
+    }
+
+    .footerLeft{
+        text-align: center;
+    }
+
+    .footerCenter{
+        text-align: center;
+    }
+
+    .footerRight{
+        text-align: center;
+    }
+    
+    .outputData{
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+
+
+}
+
+
+
+@media(min-width: 560px) and (max-width: 720px){
+    
+    /* footer */
+
+    footer{
+        padding: 25px 0 20px 0;
+    }
+
+    .footerContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footerBlock{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .footerLeft{
+        text-align: center;
+    }
+
+    .footerCenter{
+        text-align: center;
+    }
+
+    .footerRight{
+        text-align: center;
+    }
+
+    .outputData{
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+}

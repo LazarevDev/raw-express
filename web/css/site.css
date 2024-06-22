@@ -1,0 +1,1335 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* -webkit-appearance: none; */
+    /* overflow-x: hidden; */
+}
+
+
+.container{
+    width: 1320px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: url('../img/image/bg.jpg') no-repeat center / cover;
+    position: relative;
+}
+
+.headerContent{
+    margin: 160px 0 248px 0;
+}
+
+.headerTitle{ 
+   color: #fff; 
+}
+
+.headerTitle h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.headerTitle h2{
+    font-size: 24px;
+    font-weight: unset;
+    margin-top: 15px;
+}
+
+.headerBtnContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.application{
+    background: #69BC00;
+    color: #fff; 
+    border: 1px solid #69BC00;
+    text-decoration: none;
+    padding: 15px 30px;   
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.application:hover{
+    transition: 0.4s;
+    background: none;
+    border: 1px solid #69BC00;
+    color: #69BC00;
+}
+
+.more{
+    margin-left: 25px;
+    color: #fff;
+}
+
+.more:hover{
+    text-decoration: none;
+}
+
+/* преимущества */
+
+.advantages{
+    cursor: pointer;
+    position: absolute;
+    background: #69BC00;
+    width: 548px;
+    height: 148px;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0 0 ;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes around {
+    0%  { opacity: 0; }
+    20% { opacity: 1; }
+  }
+
+.advantagesContent{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.advantagesWhiteCircles{
+    position: absolute;
+    top: -12px;
+    left: -12px;
+}
+
+.advantagesContainer{
+    display: flex;
+}
+
+.advantagesNumber p{
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.advantagesText{
+    color: #fff;
+    margin: 0 25px;
+}
+
+.advantagesText h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.advantagesText p{
+    margin-top: 5px;
+    font-weight: unset;
+    font-size: 16px;
+}
+
+/* Гарантия качества */
+
+.qualityAssurance{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 0 0;
+}
+
+.sectionTitle h2{
+    color: #222;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sectionTitle p{
+    color: #999;
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.qualityAssuranceContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    padding: 25px;
+    margin: 45px 0 0 0;
+    border-radius: 50px;
+}
+
+.qualityAssuranceBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.qualityAssuranceBlockImg{
+    width: 40px;
+}
+
+.qualityAssuranceBlockText{
+    width: 260px;
+}
+
+.qualityAssuranceBlockText h3{
+    color: #69BC00;
+    font-size: 16px;
+}
+
+.qualityAssuranceBlockText p{
+    color: #333;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.qualityAssuranceVerticalHr{
+    height: 90px;
+    width: 1px;
+    background: #ddd;
+
+}
+
+/* о нас */
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 0 0;
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContent{
+    width: calc(100% - 596px);
+}
+
+.aboutText{
+    margin: 15px 0 0 0;
+}
+
+.aboutText p{
+    color: #666;
+    font-size: 16px;
+    font-weight: unset;
+    margin: 10px 0 0 0;
+}
+
+.aboutImage{
+    width: 476px;
+}
+
+.aboutImage img{
+    width: 100%;
+}
+
+.aboutInformation{
+    margin: 35px 0 0 0;
+    display: flex;
+}
+
+.aboutInformationBlock{
+    margin: 0 50px 0 0;
+}
+
+.aboutInformationBlock h2{
+    color: #69BC00;
+    font-size: 32px;
+}
+
+
+.aboutInformationBlock p{
+    margin: 5px 0 0 0;
+    color: #666;
+    font-size: 16px;
+}
+
+.aboutContainerBtn{
+    display: flex;
+    align-items: center;
+    margin: 35px 0 0 0;
+}
+
+.certificates{
+    background: #69BC00;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #69BC00;
+    transition: 0.4s;
+}
+
+.certificates:hover{
+    transition: 0.4s;
+    background: none;
+    color: #69BC00;
+}
+
+.documents{
+    color: #333;
+    margin: 0 0 0 25px;
+}
+
+.documents:hover{
+    text-decoration: none;
+}
+
+/* calc */
+
+.calc{
+    display: flex;
+    justify-content: center;
+    background: url('../img/image/calc.jpg') no-repeat center / cover;
+    padding: 50px 0;
+    color: #fff;
+    margin: 90px 0 0 0;
+}
+
+.calcText{
+    width: 60%;
+}
+
+.calcText h2{
+    font-size: 24px;
+}
+
+.calcText p{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: unset;
+}
+
+.calcBtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 24px;
+    background: #69BC00;
+    border: 1px solid #69BC00;
+    border-radius: 50px;
+    margin: 25px 0 0 0;
+    transition: .4s;
+}
+
+.calcBtn:hover{
+    color: #69BC00;
+    background: none;
+}
+
+/* Наша продукция */
+
+.ourProducts{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 0 0;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0;
+}
+
+.productMenu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.productMenu li{
+    list-style: none;
+}
+
+.productMenu li a{
+    display: block;
+    margin: 10px 10px 0 0;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.active{
+    color: #69BC00 !important;
+    border: 1px solid #69BC00 !important;
+}
+
+.productContent{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+.product{
+    width: 240px;
+    margin: 30px 10px 0 10px;
+}
+
+.poductImage{
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+    border-radius: 50px;
+}
+
+.poductImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productText{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.productText h2{
+    font-size: 18px;
+    color: #333;
+}
+
+.productText p{
+    font-size: 14px;
+    color: #999;
+}
+
+.productMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #69BC00;
+    width: 100%;
+    color: #fff;
+    border: 1px solid #69BC00;
+    text-decoration: none;
+    padding: 12px 0;
+    border-radius: 50px;
+    margin: 15px 0 0 0;
+    font-size: 16px;
+}
+
+.productMore:hover{
+    transition: 0.4s;
+    background: none;
+    color: #69BC00;
+}
+
+
+
+
+
+
+
+@media(min-width: 320px) and (max-width: 560px){
+    
+    .headerContent{
+        margin: 100px 0 248px 0;
+    }
+
+    .mediaBr{
+        display: none;
+    }
+    .headerTitle{
+        text-align: center;
+    }
+
+    .headerTitle img{
+        width: 80px;
+    }
+    
+    .headerTitle h1{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .headerTitle h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .headerBtnContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    
+    .application{
+        background: #69BC00;
+        color: #fff; 
+        border: 1px solid #69BC00;
+        text-decoration: none;
+        padding: 15px 30px;   
+        transition: 0.4s;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+
+    .more{
+        text-align: center;
+        margin: 15px 0 0 0;
+        color: #fff;        
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    /* преимущества */
+    
+    .advantages{
+        position: absolute;
+        background: #69BC00;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        right: 0;
+        border-radius: 50px 0 0 0 ;
+        padding: 20px 0 20px 0;
+    }
+    
+    .advantagesContent{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .advantagesWhiteCircles{
+        position: absolute;
+        top: -32px;
+        left: -12px;
+    }
+    
+    .advantagesNumber p{
+        color: #fff;
+        font-size: 48px;
+        font-weight: bold;
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    
+    .advantagesText{
+        color: #fff;
+        text-align: center;
+        margin: 0 10px;
+        width: 100%;
+    }
+    
+    .advantagesText h2{
+        font-weight: bold;
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+    
+    .advantagesText p{
+        margin-top: 5px;
+        font-weight: unset;
+        font-size: 14px;
+    }
+
+    /* Гарантия качества */
+
+    .qualityAssurance{
+        margin: 35px 0 0 0;
+    }
+
+    .sectionTitle{
+        text-align: center;
+    }
+
+    .sectionTitle h2{
+        font-size: 24px;
+    }
+
+    .sectionTitle p{
+        font-size: 14px;
+    }
+
+    .qualityAssuranceContent{
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 20px 0 0 0;
+    }
+
+    .qualityAssuranceBlock{
+        justify-content: flex-start;
+        width: 100%;
+        margin: 15px 0 15px 0;
+    }
+
+    .qualityAssuranceBlockImg{
+        width: 35px;
+    }
+
+    .qualityAssuranceBlockImg img{
+        width: 30px;
+    }
+
+    .qualityAssuranceBlockText{
+        width: 100%;
+        margin: 0 0 0 10px;
+    }
+
+    .qualityAssuranceBlockText h3{
+        font-size: 16px;
+    }
+
+    .qualityAssuranceBlockText p{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+
+    .qualityAssuranceVerticalHr{
+        display: none;
+
+    }
+
+    /* о нас */
+
+    .about{
+        margin: 35px 0 0 0;
+    }
+
+    .aboutContainer{
+        flex-wrap: wrap-reverse;
+    }
+
+    .aboutContent{
+        width: 100%;
+    }
+
+    .aboutText{
+        text-align: center;
+    }
+
+    .aboutImage{
+        width: 100%;
+        margin: 0 0 35px 0;
+    }
+
+    .aboutInformation{
+        margin: 35px 0 0 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .aboutInformationBlock{
+        margin: 0 0px 0 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+    }
+
+
+    .aboutInformationBlock h2{
+        font-size: 28px;
+        width: 100%;
+    }
+
+
+    .aboutInformationBlock p{
+        margin: 3px 0 0 0;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .aboutContainerBtn{
+        justify-content: center;
+    }
+
+    /* Наша продукция */
+
+    .ourProducts{
+        margin: 35px 0 0 0;
+    }
+
+    .productMenu{
+        justify-content: center;
+    }
+
+    .productContent{
+        justify-content: space-between;
+    }
+
+    .product{
+        width: 46vw;
+        margin: 30px 0 0 0;
+    }
+
+    .poductImage{
+        height: 30vw;
+    }
+
+    .productText h2{
+        font-size: 14px;
+    }
+
+    .productText p{
+        font-size: 12px;
+    }
+
+    .productMore{
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    /* контакты */
+
+    .contacts{
+        margin: 35px 0 0 0;
+        padding: 45px 0 45px 0;
+    }
+
+    .contactsForm{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactsInputContent{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contactsInput{
+        width: 95%;
+    }
+
+    .contactsTextarea{
+        width: 95%;
+    }
+
+    .contactsSubmitPrivacy{
+        margin: 25px 0 0 0;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contactsSubmitPrivacy p{
+        margin: 15px 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* footer */
+
+    footer{
+        padding: 0 0 60px 0;
+    }
+
+    .footerConteiner{
+        flex-wrap: wrap;
+    }
+
+    .footerBlock{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .footerBlock h3{
+        font-size: 16px;
+    }
+
+    .footerLeft{
+        text-align: center;
+    }
+
+    .footerCenter{
+        text-align: center;
+    }
+
+    .footerRight{
+        text-align: center;
+    }
+
+
+
+}
+
+@media(min-width: 560px) and (max-width: 720px){
+    .headerContent{
+        margin: 120px 0 248px 0;
+    }
+
+    .headerTitle img{
+        width: 100px;
+    }
+
+    .mediaBr{
+        display: none;
+    }
+    
+    .headerTitle h1{
+        font-size: 36px;
+    }
+    
+    .headerTitle h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .application{
+        font-size: 14px;
+    }
+    
+    
+    .more{
+        font-size: 14px;
+    }
+
+    /* преимущества */
+    
+    .advantages{
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    /* Гарантия качества */
+
+    .qualityAssurance{
+        margin: 35px 0 0 0;
+    }
+
+    .sectionTitle h2{
+        font-size: 28px;
+    }
+
+    .qualityAssuranceContent{
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 20px 0 0 0;
+    }
+
+    .qualityAssuranceBlock{
+        justify-content: flex-start;
+        width: 100%;
+        margin: 15px 0 15px 0;
+    }
+
+    .qualityAssuranceBlockImg{
+        width: 40px;
+    }
+
+    .qualityAssuranceBlockText{
+        width: 100%;
+        margin: 0 0 0 10px;
+    }
+
+    .qualityAssuranceBlockText h3{
+        font-size: 16px;
+    }
+
+    .qualityAssuranceBlockText p{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+
+    .qualityAssuranceVerticalHr{
+        display: none;
+
+    }
+
+    /* о нас */
+
+    .about{
+        margin: 35px 0 0 0;
+    }
+
+    .aboutContent{
+        width: calc(100% - 270px);
+    }
+
+    .aboutText{
+        margin: 10px 0 0 0;
+    }
+
+    .aboutText p{
+        font-size: 14px;
+    }
+
+    .aboutImage{
+        width: 250px;
+    }
+
+    .aboutInformation{
+        margin: 25px 0 0 0;
+    }
+
+    .aboutInformationBlock{
+        margin: 0 25px 0 0;
+    }
+
+    .aboutInformationBlock h2{
+        font-size: 28px;
+    }
+
+
+    .aboutInformationBlock p{
+        margin: 3px 0 0 0;
+        font-size: 14px;
+    }
+
+    .aboutContainerBtn{
+        margin: 25px 0 0 0;
+    }
+
+    .certificates{
+        font-size: 14px;
+    }
+
+    .documents{
+        font-size: 14px;
+    }
+
+     /* Наша продукция */
+
+     .ourProducts{
+        margin: 35px 0 0 0;
+    }
+
+    .productContent{
+        justify-content: space-between;
+    }
+
+    .product{
+        width: 45vw;
+        margin: 30px 0 0 0;
+    }
+
+    .poductImage{
+        height: 30vw;
+    }
+
+    .productText h2{
+        font-size: 16px;
+    }
+
+    .productText p{
+        font-size: 14px;
+    }
+
+    .productMore{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    footer{
+        padding: 25px 0 60px 0;
+    }
+
+    .footerConteiner{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footerBlock{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .footerLeft{
+        text-align: center;
+    }
+
+    .footerCenter{
+        text-align: center;
+    }
+
+    .footerRight{
+        text-align: center;
+    }
+
+}
+
+@media(min-width: 720px) and (max-width: 920px){
+    .headerContent{
+        margin: 120px 0 248px 0;
+    }
+    
+    .headerTitle img{
+       width: 100px;
+    }
+
+    .mediaBr{
+        display: none;
+    }
+    
+    .headerTitle h1{
+        font-size: 36px;
+    }
+    
+    .headerTitle h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* Гарантия качества */
+
+    .qualityAssurance{
+        margin: 45px 0 0 0;
+    }
+
+    .sectionTitle h2{
+        font-size: 24px;
+    }
+
+    .qualityAssuranceContent{
+        flex-wrap: wrap;
+    }
+
+    .qualityAssuranceBlock{
+        margin: 10px 0 10px 0;
+        width: 48%;
+    }
+
+    .qualityAssuranceBlockImg{
+        width: 40px;
+    }
+
+    .qualityAssuranceBlockText{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .qualityAssuranceVerticalHr{
+        display: none;
+    }
+
+    /* о нас */
+
+    .aboutContent{
+        width: calc(100% - 300px);
+    }
+
+    .sectionTitle h2{
+        color: #222;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .aboutText p{
+        font-size: 14px;
+    }
+
+    .aboutImage{
+        width: 276px;
+    }
+
+    .aboutInformationBlock h2{
+        color: #69BC00;
+        font-size: 28px;
+    }
+
+
+    .aboutInformationBlock p{
+        margin: 3px 0 0 0;
+        color: #333;
+        font-size: 14px;
+    }
+
+    /* Наша продукция */
+
+    .product{
+        width: 28vw;
+        margin: 30px 10px 0 10px;
+    }
+
+    .productMore{
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media(min-width: 920px) and (max-width: 1124px){
+    .headerContent{
+        margin: 120px 0 248px 0;
+    }
+    
+    .headerTitle img{
+       width: 100px;
+    }
+
+    .headerTitle h1{
+        font-size: 42px;
+    }
+    
+    .headerTitle h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /* Гарантия качества */
+
+    .qualityAssurance{
+        display: flex;
+        justify-content: center;
+        margin: 35px 0 0 0;
+    }
+
+    .sectionTitle h2{
+        color: #222;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .qualityAssuranceContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fafafa;
+        padding: 25px;
+        margin: 25px 0 0 0;
+        border-radius: 50px;
+
+    }
+
+    .qualityAssuranceBlock{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 30%;
+    }
+
+    .qualityAssuranceBlockImg{
+        width: 35px;
+    }
+
+    .qualityAssuranceBlockImg img{
+        width: 35px;
+    }
+
+    .qualityAssuranceBlockText{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    /* о нас */
+
+    .aboutContent{
+        width: calc(100% - 400px);
+    }
+
+    .aboutText p{
+        font-size: 14px;
+    }
+
+    .aboutImage{
+        width: 376px;
+    }
+
+    .aboutInformationBlock h2{
+        color: #69BC00;
+        font-size: 28px;
+    }
+
+
+    .aboutInformationBlock p{
+        margin: 3px 0 0 0;
+        color: #333;
+        font-size: 14px;
+    }
+
+       /* Наша продукция */
+
+       .product{
+        margin: 30px 10px 0 10px;
+    }
+
+}
+
+@media(max-width: 1300px){
+    .container{
+        width: 95%;
+    }
+}
+
+
+::-webkit-scrollbar { width: 6px; height: 6px; background: none;}
+::-webkit-scrollbar-track {  background: none;}
+::-webkit-scrollbar-track-piece { background: none;}
+::-webkit-scrollbar-thumb { background: #69BC00; border-radius: 10px;}
+
+details{
+    width: calc(100% - 30px);
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: .4s;
+    padding: 20px 15px;
+}
+
+summary{
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* background: #69BC00; */
+}
+
+details .table{
+    width: calc(100% - 30px);
+} 
+
+details tr, td{
+    padding: 0;
+}
+
+details .table input{
+    display: flex;
+    width: calc(100% - 20px);
+    height: 100%;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+tbody{
+    padding: 10px 0 0 0;
+    border: 1px solid #ddd;
+}
+
+thead{
+    padding: 0 0 10px 0;
+    border: 1px solid #ddd;
+}
+
+thead tr td{
+    color: #333;  border: 1px solid #ddd;
+
+}
+
+tr, td {
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+tr svg{
+    margin: 0 5px;
+    fill: #999;
+    transition: .4s;
+}
+
+tr svg:hover{
+    fill: #69BC00;
+}
+
+.msgError{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 90px;
+    width: 420px;
+    background: #FFF6F6;
+    transition: 5s;
+}
+
+.msgErrorLeftHr{
+    width: 25px;
+    height: 100%;
+    background: #FF2626;
+}
+
+.msgErrorText p{
+    margin: 0 0 0 25px;
+    color: #FF2626;
+    font-size: 16px;
+}
+
+.msgBtn{
+    border: 0px !important;
+    outline: none;
+    background: none;
+    box-shadow: 0 0 0;
+}
+
+.msg{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 90px;
+    width: 420px;
+    background: #69BC00;
+    transition: 14s;
+    z-index: 9999;
+}
+
+.msgLeftHr{
+    width: 25px;
+    height: 100%;
+    background: #fff;
+}
+
+.msgText p{
+    margin: 0 0 0 25px;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media(min-width: 320px) and (max-width: 550px){
+    .msgError{
+        height: 65px;
+        width: 300px;
+        transition: 2s;
+    }
+
+    .msgErrorText p{
+        font-size: 14px;
+        margin: 0 0 0 15px;
+    }
+
+    .msg{
+        height: 65px;
+        width: 300px;
+        transition: 2s;
+    }
+
+    .msgText p{
+        font-size: 14px;
+        margin: 0 0 0 15px;
+    }
+
+}
